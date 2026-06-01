@@ -1,0 +1,122 @@
+/* Overall Page Style */
+html, body {
+    height: 100%;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #432616;
+  }
+  h1{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 3em;
+      color:rgb(255, 255, 255);
+  }
+  .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-left: 50px;
+  }
+  
+  .container {
+    flex: 1;
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  /* Sidebar Filters */
+  .filter-sidebar {
+    width: 230px;
+    background-color: #93704d6d	;
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    height: fit-content;
+    position: sticky;
+    top: 10px;
+    color:rgb(255, 255, 255);
+  }
+  h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+  /* Book Grid */
+  .book-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
+    
+  }
+  
+  .book{
+    border: 1px solid #0c0909;
+    border-radius: 8px;
+    padding: 10px;
+    width: 231px;
+    height: 431px;
+    transition: border 0.2s;
+    background-color: #d7b9909f;
+    border: 2px solid #ccc;
+  
+  }
+  
+  .book:hover {
+    border: 3px solid #0e0809;
+  }
+  
+  .book img {
+    width: 230px;
+    height: 260px;
+  }
+  
+  .description {
+    margin-top: 10px;
+    font-family: 'Lucida Sans', sans-serif;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #4c0001;
+    margin-top: 5px;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #730a0cc3;
+    margin-left: 10px;
+  }
+  
+  .discount {
+    color: #0e380e;
+    margin-left: 10px;
+  }
+  
+  /* Pagination */
+  .pagination-container {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .pagination {
+    display: inline-flex;
+    gap: 10px;
+  }
+  
+  .pagination a {
+    text-decoration: none;
+    padding: 8px 12px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+  }
+  
+  .pagination a.active {
+    background-color: #333;
+    color: rgb(157, 156, 156);
+    border-color: #333;
+  }
+  
+  .pagination a:hover {
+    background-color: #eee;
+  }

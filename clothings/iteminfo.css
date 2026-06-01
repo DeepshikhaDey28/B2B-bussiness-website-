@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#e0c0a6;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.image-gallery {
+    flex: 1;
+    min-width: 400px;
+    margin-right: 40px;
+}
+
+.main-image {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.thumbnail-row {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.thumbnail-row img {
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-info {
+    flex: 1.2;
+    min-width: 300px;
+}
+
+.brand {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.product-title {
+    font-size: 1.6rem;
+    margin: 5px 0 15px;
+}
+
+.rating {
+    color: #a7771e;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #b12704;
+}
+
+.mrp {
+    text-decoration: line-through;
+    color: #888;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.offer {
+    color: green;
+    margin-left: 10px;
+}
+
+.tax-info {
+    color: green;
+    font-size: 0.9rem;
+    margin: 5px 0 20px;
+}
+
+.size-section {
+    margin-bottom: 20px;
+}
+
+.size-section span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.size-chart {
+    font-size: 0.9rem;
+    color: #007185;
+    text-decoration: none;
+}
+
+.sizes button {
+    margin: 8px 8px 0 0;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.sizes button:disabled {
+    background-color: #eee;
+    cursor: not-allowed;
+    color: #999;
+}
+
+.action-buttons {
+    margin: 20px 0;
+}
+
+.add-to-bag, .wishlist {
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.add-to-bag {
+    background-color: #ff3e6c;
+    color: white;
+}
+
+.wishlist {
+    border: 1px solid #ccc;
+    background: white;
+    color: #444;
+}
+
+.delivery {
+    margin: 30px 0 20px;
+}
+
+.delivery input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.delivery .check {
+    padding: 10px 16px;
+    background-color: #ff3e6c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.note {
+    font-size: 0.85rem;
+    color: #777;
+    margin-top: 8px;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
